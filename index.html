@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link rel="stylesheet" href="styles.css">
+        </head>
+<body>        
+    <div>
+        <input type="range" min="0" max="255" id="r" step="1" value="0">
+        <div>This is the R slider</div>
+    </div>
+    
+    <div>
+        <input type="range" min="0" max="255" id="g" step="1" value="0">
+        <div>This is the G slider</div>
+    </div>
+    
+    <div>
+        <input type="range" min="0" max="255" id="b" step="1" value="0">
+        <div>This is the B slider</div>
+    </div>  
+
+      <svg height="100" width="100">
+        <circle id="circle" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="black" />
+       </svg>
+      <script src="myScript.js"></script>
+</body>
+</html>
